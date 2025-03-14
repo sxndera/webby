@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Rosales National High School | Senior High School</title>
+        <link rel="stylesheet" href="edu.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="about.html"><img src="images/log.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="strands.html">STRANDS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="signin.html">SIGN OUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+    <!--about us content-->    
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Welcome to the Rosales National High School family, 
+                    where education goes beyond the classroom!</h1>
+                <p>Welcome to Rosales National High School, a beacon of educational excellence dedicated to nurturing the potential within each student. 
+                    Established with a commitment to providing quality education, our school is a vibrant community that fosters holistic development, academic achievement, and a passion for lifelong learning. </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+<!--footer-->
+
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="images/log.png" class="logo">
+            <p>Explore your educational journey at Rosales National High School! 
+                Discover diverse tracks and strands tailored to your interests. We're committed to nurturing well-rounded individuals, combining academic excellence with practical skills for a successful future. 
+                Welcome to RNHS – where your path to success begins!</p>
+        </div>
+        <div class="col">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            <p>Coloma St. Don Antonio Village</p>
+            <p>Rosales, Pangasinan</p>
+            <p>Region I, Philippines</p>
+            <p class="email-id">rosalesnhsshs@gmail.com</p>
+            <h4>(0927) 1** 42**</h4>
+
+        </div>
+        <div class="col">
+            <h3>Links <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="strands.html">Strands</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Stay Connected with Us! <div class="underline"><span></span></div></h3>
+            <form>
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="Enter your email id" required>
+                <button type="submit"><i class="fa fa-arrow-right"></i></button>
+            </form>
+            <div class="social-links">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-whatsapp"></i></a>
+                <a href=""><i class="fa fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Rosales National High School-SHS | Dasalla, Sandara Lee Atheena <i class="fa fa-copyright"></i> 2024 - All Rights Reserved</p>
+</footer>
+
+<!--JavaScript for Toggle Menu-->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    </body>
+</html>
